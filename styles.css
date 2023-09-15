@@ -1,31 +1,36 @@
-body{
+/* Estilos globales */
+body {
     font-family: sans-serif;
-    background-color: #002c8b;  
+    background-color: #002c8b;
     text-align: center;
 }
 
-.container{
+/* Estilos del contenedor principal */
+.container {
     max-width: 300px;
     margin: 0 auto;
     padding: 10px;
     background-color: #e2d2d2;
-    border: #09ff00 solid 2px;
+    border: 2px solid #09ff00;
     border-radius: 20px;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-h1{
+/* Estilos del encabezado */
+h1 {
     font-size: 2rem;
 }
 
-label{
+/* Estilos de las etiquetas de entrada */
+label {
     display: block;
     margin-bottom: 10px;
     font-size: 1.2rem;
     font-weight: bold;
 }
 
-input{
+/* Estilos de los campos de entrada */
+input {
     display: block;
     width: 200px;
     margin: 0 auto;
@@ -35,14 +40,15 @@ input{
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
 
-button{
+/* Estilos del botón */
+button {
     display: block;
     width: 50%;
-    margin-bottom: 1rem;
     margin: 0 auto;
     margin-bottom: 5px;
 }
 
-.porFuera{
-    color: rgb(255, 255, 255);
+/* Estilos para texto con clase "porFuera" */
+.porFuera {
+    color: #fff;
 }

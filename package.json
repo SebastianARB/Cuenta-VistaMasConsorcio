@@ -1,0 +1,15 @@
+{
+  "name": "cuenta-vistamasconsorcio-main",
+  "version": "1.0.0",
+  "description": "Proyecto pensado para calcular la rentabilidad de la CUENTA VISTA MAS del Banco Consorcio, indicando ganancias especificas, totales y ofreciendo los porcentajes de ganancia segun monto.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^21.1.1"
+  }
+}
