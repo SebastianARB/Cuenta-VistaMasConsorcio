@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consorcio vista mas</title>
+    <title>Calculadora de Ganancias</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -15,35 +15,35 @@
             <label for="saldoInicial">Ingrese el monto inicial</label>
             <input type="number" id="saldoInicial" placeholder="Ingrese monto">
             <button id="btnCalcular">Calcular</button>
-    
-            <p>Valor ganancia mensual:$ <span id="ganancia">0.00</span></p>
-            <p>Valor total mensual:$ <span id="valorTotal">0.00</span></p>
+
+            <p>Valor ganancia mensual: $<span id="ganancia">0.00</span></p>
+            <p>Valor total mensual: $<span id="valorTotal">0.00</span></p>
             <p>Porcentaje ganancia mensual: <span id="porcentajeMensual">0.00</span></p>
             <p>Porcentaje ganancia anual: <span id="porcentajeAnual">0.00</span></p>
-            <p>Valor ganancia anual:$ <span id="gananciaAnual">0.00</span></p>
+            <p>Valor ganancia anual: $<span id="gananciaAnual">0.00</span></p>
         </div>
-    
-        <p>Ganancia sin descontar comisión de tarjeta Mensual:$ <span id="sinComision">0.00</span></p>
-        <p>Ganancia sin descontar comisión de tarjeta Anual:$ <span id="montoAnualSinDescontar">0.00</span></p>
 
+        <p>Ganancia sin descontar comisión de tarjeta Mensual: $<span id="sinComision">0.00</span></p>
+        <p>Ganancia sin descontar comisión de tarjeta Anual: $<span id="montoAnualSinDescontar">0.00</span></p>
     </div>
-    <p class="porFuera">Valor de la UF HOY : $ <span id="getPrecioUf">0.00</span></p>
+
+    <p class="porFuera">Valor de la UF HOY : $<span id="getPrecioUf">0.00</span></p>
+
     <div class="container">
         <h1>Calcular Ganancias Santander</h1>
         <div class="calculator" id="santander">
             <label for="saldoInicial2">Ingrese el monto inicial</label>
             <input type="number" id="saldoInicial2" placeholder="Ingrese monto">
             <button id="btnCalcular2">Calcular</button>
-    
-            <p>Valor ganancia mensual:$ <span id="ganancia2">0.00</span></p>
-            <p>Valor total mensual:$ <span id="valorTotal2">0.00</span></p>
+
+            <p>Valor ganancia mensual: $<span id="ganancia2">0.00</span></p>
+            <p>Valor total mensual: $<span id="valorTotal2">0.00</span></p>
             <p>Porcentaje ganancia mensual: <span id="porcentajeMensual2">0.00</span></p>
             <p>Porcentaje ganancia anual: <span id="porcentajeAnual2">0.00</span></p>
-            <p>Valor ganancia anual:$ <span id="gananciaAnual2">0.00</span></p>
+            <p>Valor ganancia anual: $<span id="gananciaAnual2">0.00</span></p>
         </div>
     </div>
     
-
     <script>
         // Cargar los datos JSON
         fetch('precioUf.json')
@@ -58,10 +58,11 @@
                 console.error('Error al cargar los datos:', error);
             });
     </script>
-
-
+    
     <script src="uf.js"></script>
     <script src="script.js"></script>
 </body>
 
 </html>
+
+
