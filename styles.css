@@ -44,8 +44,7 @@ input {
 button {
     display: block;
     width: 50%;
-    margin: 0 auto;
-    margin-bottom: 5px;
+    margin: 10px auto;
 }
 
 /* Estilos para texto con clase "porFuera" */
